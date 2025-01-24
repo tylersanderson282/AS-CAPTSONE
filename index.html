@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="group-name" content="Tyler, Garret, and Jasmine">
+    <title>Bonzai Bliss</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(90deg, #2e8b57, #3cb371);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #4682b4;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f3f3f3;
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2e8b57;
+            text-align: center;
+        }
+
+        .bonsai-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .bonsai-list img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .bonsai-list p {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .table-section {
+            margin-top: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+        }
+
+        table, th, td {
+            border: 1px solid #4682b4;
+        }
+
+        th {
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .ordered-list {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f3f3f3;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ordered-list ol {
+            padding-left: 20px;
+        }
+
+        .ordered-list li {
+            margin-bottom: 10px;
+        }
+
+        .link-images {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .link-images img {
+            width: 100px;
+            height: auto;
+            margin: 0 15px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .link-images img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: linear-gradient(90deg, #2e8b57, #3cb371);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Bonzai Bliss Logo">
+        <h1>Bonzai Bliss</h1>
+        <p>Your go-to destination for beautiful bonzai trees</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tree.details.html">Tree Details</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+        <h2>Welcome to Bonzai Bliss!</h2>
+        <p>We specialize in providing stunning and unique bonzai trees for your home or office. Explore our collection and learn about the art of cultivating bonzai trees.</p>
+
+        <div class="bonsai-list">
+            <div>
+                <img src="images/tree1.jpg" alt="Japanese Maple">
+                <p><strong>Japanese Maple:</strong> Known for its vibrant red leaves and delicate structure.</p>
+            </div>
+            <div>
+                <img src="images/tree2.jpg" alt="Juniper Bonzai">
+                <p><strong>Juniper Bonzai:</strong> A classic and easy-to-care-for evergreen variety.</p>
+            </div>
+            <div>
+                <img src="images/tree3.jpg" alt="Ficus Bonzai">
+                <p><strong>Ficus Bonzai:</strong> A tropical favorite with lush green foliage.</p>
+            </div>
+        </div>
+
+        <div class="table-section">
+            <h3>Bonzai Care Tips</h3>
+            <table>
+                <tr>
+                    <th>Tree Type</th>
+                    <th>Watering Frequency</th>
+                    <th>Sunlight Needs</th>
+                </tr>
+                <tr>
+                    <td>Japanese Maple</td>
+                    <td>Twice a week</td>
+                    <td>Partial shade</td>
+                </tr>
+                <tr>
+                    <td>Juniper Bonzai</td>
+                    <td>Weekly</td>
+                    <td>Full sun</td>
+                </tr>
+                <tr>
+                    <td>Ficus Bonzai</td>
+                    <td>Every 3 days</td>
+                    <td>Indirect sunlight</td>
+                </tr>
+                <tr>
+                    <td>Chinese Elm</td>
+                    <td>Every 4 days</td>
+                    <td>Partial sun</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="ordered-list">
+            <h3>Steps to Start Growing a Bonzai</h3>
+            <ol>
+                <li>Choose the right tree species.</li>
+                <li>Pick a suitable pot and soil.</li>
+                <li>Prune and shape your tree.</li>
+                <li>Provide proper watering and sunlight.</li>
+                <li>Repot periodically to encourage growth.</li>
+            </ol>
+        </div>
+
+        <div class="link-images">
+            <a href="tree.details.html"><img src="images/details-icon.jpg" alt="Tree Details" style="width: 50px; height: auto;"></a>
+            <a href="contact.html"><img src="images/contact-icon.jpg" alt="Contact Us" style="width: 50px; height: auto;"></a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bonzai Bliss. All rights reserved.</p>
+    </footer>
+</body>
+</html>
